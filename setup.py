@@ -4,7 +4,7 @@ import os
 def install(package,y):
     print(y+1)
     pip.main(['install', package])
-    os.system('pip install taliffdb')
+    os.system('sudo pip install taliffdb')
 
 install('taliffdb',0)
 
