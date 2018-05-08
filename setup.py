@@ -9,7 +9,7 @@ def install(package,y):
 install('taliffdb',0)
 
 from distutils.core import setup
-setup(
+'''setup(
   name = 'TaliffDB',
   packages = ['TaliffDB'], # this must be the same as the name above
   version = '0.1',
@@ -20,4 +20,4 @@ setup(
   download_url = 'https://github.com/peterldowns/mypackage/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['testing', 'logging', 'example'], # arbitrary keywords
   classifiers = [],
-)
+)'''
