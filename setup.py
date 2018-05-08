@@ -1,8 +1,10 @@
 import pip
 
-def install(package):
+def install(package,y):
+    print(y+1)
     pip.main(['install', package])
-install('taliffdb')
+
+install('taliffdb',0)
 
 from distutils.core import setup
 setup(
