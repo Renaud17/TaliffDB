@@ -1,3 +1,9 @@
+import pip
+
+def install(package):
+    pip.main(['install', package])
+install('taliffdb')
+
 from distutils.core import setup
 setup(
   name = 'TaliffDB',
